@@ -1,8 +1,9 @@
 puts "Choisis un nombre"
-nombre = gets.chomp.to_i 
+nombre = gets.chomp.to_i
+nb_boucles = nombre + 1
 
 puts 
-nombre.times do |nombre_courant| 
-    puts nombre - nombre_courant
+nb_boucles.times do |nombre_courant| 
+    puts nombre - nombre_courant 
 
 end
